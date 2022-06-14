@@ -240,6 +240,37 @@ main section img {
 box-sizing: border-box;
 }
 
+/* FAQ page additions */
+
+#faq-img {
+    width: 100%;
+    height: 75%;
+}
+
+#faq-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#faq-msg h1, #faq-msg h4 {
+    font-family: Neucha, Helvetica, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color:#0b4066;
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+#faq-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#faq-msg h4 {
+    font-family: Candara, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
