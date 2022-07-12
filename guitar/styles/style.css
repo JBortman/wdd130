@@ -195,6 +195,11 @@ nav a:hover {
     grid-template-rows: repeat(10, 100px);
 }
 
+.start-main h2:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
 #start-background{
     grid-row: 1/11;
     grid-column: 1/11;
