@@ -189,7 +189,60 @@ nav a:hover {
 }
 
 /* Getting Started Page */
+.start-main {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 100px);
+}
 
+#start-background{
+    grid-row: 1/11;
+    grid-column: 1/11;
+    background-color: #000000;
+}
+
+#start-txt h2 {
+    text-align: center;
+    font-family: "Antonio", Helvetica, Arial;
+    font-size: 2em;
+    text-shadow: 5px 5px 10px #785e41;
+    font-size: 2.5em;
+}
+
+#start-txt p {
+    text-align: center;
+    font-family: Coda, Arial;
+    text-shadow: 5px 5px 10px #785e41;
+    font-size: 1.2em;
+}
+
+#start-box {
+    grid-row: 2/10;
+    grid-column: 2/10;
+    background-color: #faf1d5;
+    padding: 50px;
+    margin: -50px;
+    box-shadow: 0px 0px 40px #785e41;
+}
+
+.acoustic1{
+    float: right;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-top: -100px;
+}
+
+#start-msg-txt2{
+    margin-top: 100px;
+}
+
+.blues1{
+    float: left;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
 
 /* Footer */
 footer {
