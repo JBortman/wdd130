@@ -249,25 +249,6 @@ nav a:hover {
     padding: 20px;
 }
 
-/* Footer */
-footer {
-    font-family: Coda, Arial;
-    background-color: #785e41;
-    padding: 25px 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-footer h3{
-    color: #faf1d5;
-    margin-left: -50px;
-}
-
-footer {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 /* Contact Us page */
 
 .contact-main {
@@ -343,3 +324,22 @@ button {
 .moveDown {
     margin-top: 3em;
     }
+
+/* Footer */
+footer {
+    font-family: Coda, Arial;
+    background-color: #785e41;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3{
+    color: #faf1d5;
+    margin-left: -50px;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
